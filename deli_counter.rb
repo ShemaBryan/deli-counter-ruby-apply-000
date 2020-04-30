@@ -6,7 +6,7 @@ if katz_deli.empty?
   puts "The line is currently empty."
 else
   katz_deli.each do |name, index|
-  line_array.push "#{number}, #{customer}"
+  line_array.push ("#{number}, #{customer}")
   number += 1
 end
   puts "The line is currently #{positions.join (" ")}"
