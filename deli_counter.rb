@@ -5,9 +5,6 @@ line_array = [ ]
 if katz_deli.empty?
   puts "The line is currently empty."
 else
-  number = 1
-  end
-end
   katz_deli.each do |customer|
   line_postions << "#{number}, #{customer}"
   number += 1
