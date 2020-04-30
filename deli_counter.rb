@@ -12,12 +12,12 @@ end
   line_postions << "#{number}, #{customer}"
   number += 1
 end
-  puts "The line is currently #{positions.join (" ")}
+  puts "The line is currently #{positions.join (" ")}"
 end
 
 def take_a_number (array, element)
   array.push (element)
-  puts "Welcome, #{element}.You are #{array}"
+  puts "Welcome, #{}"
 end
 
 def now_serving (katz_deli)
