@@ -7,7 +7,6 @@ if katz_deli.empty?
 else
   katz_deli.each do |name, index|
   line_array.push ("#{index}. #{name}")
-  number += 1
 end
   puts "The line is currently #{positions.join (" ")}"
 end
