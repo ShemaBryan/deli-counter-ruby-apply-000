@@ -1,8 +1,8 @@
-katz_deli = []
+katz_deli = [ ]
 
 def line (katz_deli)
-line_postions = []
-if katz_deli.length == 0
+line_postions = [ ]
+if katz_deli.empty?
   puts "The line is currently empty."
 else
   number = 1
@@ -12,13 +12,12 @@ end
   line_postions << "#{number}, #{customer}"
   number += 1
 end
-
   puts "The line is currently #{positions.join (" ")}
 end
 
-def take_a_number (katz_deli, name)
-  katz_deli << name
-  puts "Welcome, #{name}. You are number #{katz_deli.size} in line"
+def take_a_number (array, element)
+  array.push (element)
+    puts "Welcome, #{element}.You are #{array.size}
 end
 
 def now_serving (katz_deli)
