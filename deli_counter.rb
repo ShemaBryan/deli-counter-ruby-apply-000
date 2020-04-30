@@ -9,8 +9,8 @@ else
   line_array.push ("#{index}. #{name}")
 end
   puts "The line is currently #{line_array.join (" ")}"
+  end
 end
-
 def take_a_number (array, element)
   array.push (element)
   puts "Welcome, #{element}.You are #{array}"
