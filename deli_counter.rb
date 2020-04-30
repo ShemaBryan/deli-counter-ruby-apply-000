@@ -17,7 +17,7 @@ end
 
 def take_a_number (array, element)
   array.push (element)
-    puts Welcome, #{element}.You are #{array.size}
+  puts Welcome, #{element}.You are #{array.size}
 end
 
 def now_serving (katz_deli)
