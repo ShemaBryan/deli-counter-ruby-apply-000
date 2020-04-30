@@ -8,7 +8,7 @@ else
   katz_deli.each do |name, index|
   line_array.push ("#{index}. #{name}")
 end
-  puts "The line is currently #{line_array.join (" ")}"
+  puts "The line is currently: #{line_array.join (" ")}"
   end
 end
 def take_a_number (array, element)
